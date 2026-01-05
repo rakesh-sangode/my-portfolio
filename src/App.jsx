@@ -10,8 +10,9 @@ import {
 	Text,
 	Image,
 	Contact,
+	Photos,
 } from '#windows';
-import { Navbar, Welcome, Dock } from '#components';
+import { Navbar, Welcome, Dock, Home } from '#components';
 
 gsap.registerPlugin(Draggable);
 
@@ -29,6 +30,9 @@ const App = () => {
 			<Text />
 			<Image />
 			<Contact />
+			<Photos />
+
+			<Home />
 		</main>
 	);
 };
